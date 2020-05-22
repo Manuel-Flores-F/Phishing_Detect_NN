@@ -242,7 +242,7 @@ La página tottus.supercupones.net 	 no es segura
 	 con la probabilidad de que sea phishing del  0.92 %
 La página netfIix.com 	 no es segura 
 	 con la probabilidad de que sea phishing del  0.73 %
-     ```
+```
 ## Conclusiones
 
 * En cuestión de precisión, el segundo modelo (1D CONVOLUTION + LSTM) da un mejor resultado, con una precision de ***94.96 %***, mientras que el primer modelo (1D CONVOLUTION + FULLY CONECTED) tiene una precisión de  ***86.20 %***
@@ -273,18 +273,3 @@ La página netfIix.com 	 no es segura
 * https://pdfs.semanticscholar.org/37d4/dd4a6535bef307325164891f16bcdd293721.pdf
 
 * https://towardsdatascience.com/understanding-lstm-and-its-quick-implementation-in-keras-for-sentiment-analysis-af410fd85b47
-
-## algo mas
-
-LSTM para redes recurrentes básicas.
-Memorias de corto plazo, generar nombres cuando el nombre es corto, reder recurrentes basicas,
-
-
-RNN(Datoactual y estado ocurlto anterior) y genera un nuevo estado oculto geenenando 
-
-recordar un dato relevante, y usarlo despues (largo plazo), no enfocamos en caracterizticas relevantes
-
-
-Consejos para la limpieza de texto para incrustación de palabras
-Recientemente, el campo del procesamiento del lenguaje natural se ha ido alejando de los modelos de Bag of Words y de la codificación de palabras hacia las incrustaciones de palabras. El beneficio de las incrustaciones de palabras es que codifican cada palabra en un vector denso que captura algo acerca de su significado relativo dentro del texto de capacitación. Esto significa que las variaciones de palabras como mayúsculas, minúsculas, ortografía, puntuación, etc. se aprenderán automáticamente a ser similares en el espacio de incrustación. A su vez, esto puede significar que la cantidad de limpieza requerida de su texto puede ser menor y quizás bastante diferente a la limpieza de texto clásica. Por ejemplo, puede que ya no tenga sentido detener las palabras o eliminar la puntuación de las contracciones.
-
